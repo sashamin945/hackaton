@@ -1,4 +1,3 @@
-/* === Сброс и базовые правила === */
 * {
   margin: 0;
   padding: 0;
@@ -352,7 +351,6 @@ body {
   }
 }
 
-/* === Карточки зон === */
 .main {
   display: flex;
   flex-direction: column;
@@ -418,7 +416,6 @@ body {
   text-align: center;
 }
 
-/* === НОВЫЙ HEADER (добавлен как отдельный компонент) === */
 .header {
   position: relative;
   width: 100%;
@@ -469,7 +466,6 @@ body {
   bottom: 0;
 }
 
-/* === НОВЫЙ FOOTER === */
 .footer {
   display: flex;
   justify-content: flex-start;  
@@ -805,4 +801,5 @@ body {
   .header-img-sonic {
     max-width: 300px;
   }
+
 }
